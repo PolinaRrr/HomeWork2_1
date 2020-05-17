@@ -37,8 +37,10 @@ public class Robot implements Participating {
     public void setName(String name) {
         this.name = name;
     }
+
     /**
      * метод бега
+     *
      * @param track - объект беговая дорожка
      * @return true если участник на дистанции, false - если участник сходит с дистанции
      */
@@ -54,6 +56,7 @@ public class Robot implements Participating {
         }
         return true;
     }
+
     /**
      * метож прыжка
      * @param wall объект стена
